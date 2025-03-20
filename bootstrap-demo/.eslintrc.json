@@ -1,0 +1,7 @@
+{
+    "env": { "browser": true },
+    "rules": {
+      "no-unused-vars": "warn",
+      "indent": ["error", 2]
+    }
+  }

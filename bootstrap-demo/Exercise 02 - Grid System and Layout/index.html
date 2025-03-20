@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>我的Bootstrap项目</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col order-md-2">第二列（桌面端显示在第一列）</div>
+        <div class="col order-md-1">第一列（桌面端显示在第二列）</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 bg-warning">左侧导航</div>
+        <div class="col-md-8">主内容</div>
+        <div class="col-md-1 bg-primary">右侧边栏</div>
+      </div>
+    </div>
+
+    <!-- 请在此处编写代码 -->
+    <div class="container">
+      <div class="row">
+        <!-- 主内容区 -->
+        <div class="col-md-8 col-lg-6">
+          <div class="row">
+            <div class="col-12">新闻1</div>
+            <div class="col-12">新闻2</div>
+          </div>
+        </div>
+        <!-- 右侧栏 -->
+        <div class="col-md-4 col-lg-6">
+          <div class="row">
+            <div class="col-12">推荐文章</div>
+            <div class="col-12">广告位</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 bg-danger">左半屏</div>
+        <div class="col-md-6 bg-primary">右半屏</div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 bg-success">三分之一</div>
+        <div class="col-md-8 bg-warning">三分之二</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="d-flex align-items-start" style="height: 200px; border: 1px solid #ccc">
+          <div style="width: 100px; height: 100px; background-color: #f0f0f0"></div>
+          <div style="width: 100px; height: 100px; background-color: #e0e0e0"></div>
+        </div>
+
+        <div class="d-flex align-items-center" style="height: 200px; border: 1px solid #ccc">
+          <div style="width: 100px; height: 100px; background-color: #f0f0f0"></div>
+          <div style="width: 100px; height: 100px; background-color: #e0e0e0"></div>
+        </div>
+
+        <div class="d-flex align-items-end" style="height: 200px; border: 1px solid #ccc">
+          <div style="width: 100px; height: 100px; background-color: #f0f0f0"></div>
+          <div style="width: 100px; height: 100px; background-color: #e0e0e0"></div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-start" style="width: 500px; border: 1px solid #ccc">
+        <div style="width: 100px; height: 100px; background-color: #f0f0f0"></div>
+        <div style="width: 100px; height: 100px; background-color: #e0e0e0"></div>
+      </div>
+
+      <div class="d-flex justify-content-center" style="width: 500px; border: 1px solid #ccc">
+        <div style="width: 100px; height: 100px; background-color: #f0f0f0"></div>
+        <div style="width: 100px; height: 100px; background-color: #e0e0e0"></div>
+      </div>
+
+      <div class="d-flex justify-content-between" style="width: 500px; border: 1px solid #ccc">
+        <div style="width: 100px; height: 100px; background-color: #f0f0f0"></div>
+        <div style="width: 100px; height: 100px; background-color: #e0e0e0"></div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h2>列偏移示例</h2>
+      <div class="row">
+        <div class="col-md-3 offset-md-3" style="background-color: #f0f0f0">
+          .col-md-3 .offset-md-3
+        </div>
+        <div class="col-md-3" style="background-color: #e0e0e0">.col-md-3</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 bg-light">左侧导航</div>
+        <div class="col-md-8">主内容</div>
+        <div class="col-md-2 bg-light">右侧边栏</div>
+      </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
